@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1216Test</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div id="layout">
+        <header>
+            <h1>민원실</h1>
+        </header>
+        <main>
+            <section>
+                <div id = "notice">
+                    <div>
+                        <h2>민원실 이용안내</h2>
+                        <p>민원지적과 운영시간 안내입니다</p>
+                        <div>
+                            <b>운영시간</b>
+                            <p>월~금 09:00 ~ 18:00<br>
+                            (주말,공휴일 제외)</p>
+                        </div>
+                        <div>
+                            <b>수요일</b>
+                            <p> 09:00 ~ 20:00</p>
+                        </div>
+                    </div>
+                    <img src="images/bg1.png" alt="bg">
+                </div>
+                <div id = "bar">
+                    <div class="bar1">
+                        <div>
+                            <a href="#"><img src="images/icon_1.png" alt="phone"></a>
+                            <b>전화번호안내</b>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/icon_2.png" alt="3D"></a>
+                            <b>3D청사안내</b>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/icon_3.png" alt="route"></a>
+                            <b>오시는길</b>
+                        </div>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">민원실 안내</a></li>
+                            <li><a href="#">지방세 납부</a></li>
+                            <li><a href="#">공직비리 갑질 익명 신고</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">민원서식과 절차</a></li>
+                            <li><a href="#">민원후견제도</a></li>
+                            <li><a href="#">철도승자권예매및발매안내</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="aside">
+                <div id="search">
+                    <h3><i>민원</i>검색</h3>
+                    <input type="text" placeholder="검색어를 입력해주세요">
+                    <a href="#"><img src="images/icon_12.png" alt= search></a>
+                </div>
+                <div class="tag">
+                    <h4>
+                        <img src="images/icon_11.png" alt="good">
+                        <b>인기검색어</b>
+                    </h4>
+                    <a href="#">#전화번호</a>
+                    <a href="#">#일자리 정보</a>
+                    <a href="#">#긴급재난지원금</a>
+                    <a href="#">#계약정보</a>
+                </div>
+                <div>
+                    <h5><em>자주찾는</em> 민원</h5>
+                    <div class="list">
+                        <a href="#" class="minwon"><img src="images/icon31.png" alt="icon1">정부24</a>
+                        <a href="#" class="minwon"><img src="images/icon32.png" alt="icon2">정부24</a>
+                        <a href="#" class="minwon"><img src="images/icon33.png" alt="icon3">정부24</a>
+                        <a href="#" class="minwon"><img src="images/icon34.png" alt="icon4">정부24</a>
+                        <a href="#" class="minwon"><img src="images/icon35.png" alt="icon5">정부24</a>
+                        <a href="#" class="minwon"><img src="images/icon36.png" alt="icon6">정부24</a>
+                        <a href="#" class="minwon"><img src="images/icon37.png" alt="icon7">정부24</a>
+                        <a href="#" class="minwon"><img src="images/icon38.png" alt="icon8">정부24</a>
+                        <a href="#" class="minwon"><img src="images/icon39.png" alt="icon9">정부24</a>
+                        <a href="#" class="minwon"><img src="images/icon40.png" alt="icon10">정부24</a>
+                    </div>
+                    <div class="bottom-alert">
+                        <div>
+                            <a href="#"><img src="images/icon_21.png"></a>
+                            <p>민원신고센터</p>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/icon_22.png"></a>
+                            <p>지방세안내</p>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/icon_23.png"></a>
+                            <p>전자민원창구</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+<script>
+    const input = document.querySelector("input")
+    
+    input.addEventListener("click",()=>{
+        input.style.border = "1.5px solid gold"
+
+    })
+
+</script>
+</html>
